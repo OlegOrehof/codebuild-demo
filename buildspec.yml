@@ -1,14 +1,9 @@
-#--------------------------------------------------------------
-# Simple AWS CodeBuild Config File
-#
-# Copyleft (c) by Denis Astahov
-#--------------------------------------------------------------
 version: 0.2
 
 env:
   variables:
-    AWS_DEFAULT_REGION: "us-west-2"
-    AWS_ACCOUNT_ID    : "032823347814"
+    AWS_DEFAULT_REGION: "us-east-2"
+    AWS_ACCOUNT_ID    : "112298774548"
     ECR_REPO_NAME     : "webapp"
     ECR_IMAGE_TAG     : "latest"
 
